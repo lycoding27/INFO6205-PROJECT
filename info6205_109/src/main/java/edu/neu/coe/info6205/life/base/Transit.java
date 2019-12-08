@@ -11,8 +11,8 @@ public class Transit {
         int length = (int)( 10 * Math.random())+20;
         String[] s=new String[length];
         for(int i=0;i<length;i++){
-            int x =(int)(Math.random()*30)-10;
-            int y =(int)(Math.random()*30)-10;
+            int x =(int)(Math.random()*40)-20;
+            int y =(int)(Math.random()*40)-20;
             s[i]=x+" "+y;
         }
         return Arrays.toString(s).substring(1, Arrays.toString(s).length() - 1);
